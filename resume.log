@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.2.16)  5 MAR 2025 16:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2025.2.16)  8 MAR 2025 16:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -833,7 +833,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--20
 
 )
 LaTeX Font Info:    Trying to load font information for TS1+qpl on input line 2
-7.
+4.
  (/usr/share/texmf/tex/latex/tex-gyre/ts1qpl.fd
 File: ts1qpl.fd 2009/09/25 v1.2 font definition file for TS1/qpl
 )
@@ -844,8 +844,14 @@ Package microtype Info: Character `029' is missing
 ! Misplaced alignment tab character &.
 <argument> Software Design &
                              Analysis (Remote)
-l.76 ...Remote)}{\timeinterval{Feb 2024}{Present}}
+l.78 ...Remote)}{\timeinterval{Feb 2024}{Present}}
                                                   
+? \
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
 ? 
 [1
 
@@ -853,22 +859,22 @@ l.76 ...Remote)}{\timeinterval{Feb 2024}{Present}}
 
 {/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./img/githu
 b-mark-eps-converted-to.pdf> <./img/LI-In-Bug.png>] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
  (./resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 186.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18154 strings out of 481239
- 341955 string characters out of 5920377
+ 18158 strings out of 481239
+ 342012 string characters out of 5920377
  629113 words of memory out of 5000000
- 33005 multiletter control sequences out of 15000+600000
- 569868 words of font info for 60 fonts, out of 8000000 for 9000
+ 33007 multiletter control sequences out of 15000+600000
+ 572914 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,7n,79p,829b,552s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,7n,79p,829b,500s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}{/usr/share/texmf/font
 s/enc/dvips/tex-gyre/q-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.
 enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texl
@@ -876,10 +882,10 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/
 type1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qp
 lr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pfb></usr/share/texm
 f/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on resume.pdf (2 pages, 222264 bytes).
+Output written on resume.pdf (2 pages, 224121 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
- 17431 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 17943 words of extra memory for PDF output out of 20736 (max. 10000000)
 
