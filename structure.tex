@@ -36,13 +36,16 @@
 \usepackage{relsize} % Required for the \textscale command for custom small caps text
 
 \usepackage{xcolor} % Required for specifying custom colors
+\usepackage{fontawesome5} % For colored icon fonts (SVG-like icons that can be colored)
+\definecolor{resumeblue}{HTML}{154c79} % Primary resume color
 
 \usepackage{tcolorbox} % Used for more customizable color boxes (e.g., round corners)
 
 \usepackage[hidelinks]{hyperref} % Required for customizing links
 
-\usepackage{tgpagella} % Use the TeX Gyre Pagella font throughout the document
 \usepackage[T1]{fontenc}
+\usepackage{lmodern} % Latin Modern - clean, professional font family
+\renewcommand{\familydefault}{\sfdefault} % Use sans-serif variant for modern look
 \usepackage{microtype} % Slightly tweaks character and word spacings for better typography
 
 \usepackage{pagenote}
@@ -76,6 +79,16 @@
 \newcommand*\roottitle[1]{\section*{#1}\vspace{-0.3em}\nopagebreak[4]}
 \newcommand*\sectionrule{\nopagebreak[4]\spacedhrule{0.5em}{-0.5em}\nopagebreak[4]}
 
+% Headline with title and horizontal line on same line
+\newcommand*\headline[1]{%
+    \noindent\textbf{\Large\textcolor{resumeblue}{#1}} \xrfill[.5ex]{0.5pt}[resumeblue] \\[0.5em]
+}
+
+% Headline with name and horizontal line extending (like "Name ------------")
+\newcommand*\headlinename[1]{%
+    \noindent\textbf{#1} \xrfill[.5ex]{0.5pt}[resumeblue] \\[0.5em]
+}
+
 \newlength{\newparindent} % It seems not to work when simply using \parindent...
 \addtolength{\newparindent}{\parindent}
 \newlength{\doubleparindent} % A double \parindent...
@@ -99,10 +112,12 @@
 \newcommand{\repo}[1]{\textscale{0.85}{\hspace{2pt}\repobox[gray]{\texttt{#1}}}}
 \newcommand{\repowithlink}[2]{\href{#1}{\repo{#2}}}
 
-\newcommand{\githubmark}{\raisebox{-0.15em}{\includegraphics[height=1em]{img/github-mark.eps}}}
-\newcommand{\skypeicon}{\raisebox{-0.2em}{\includegraphics[height=1em]{img/skype-icon.eps}}}
-\newcommand{\devbadge}{\raisebox{-0.2em}{\includegraphics[height=1em]{img/dev-badge.eps}}}
-\newcommand{\linkedin}{\raisebox{-0.2em}{\includegraphics[height=1em]{img/LI-In-Bug.png}}}
+% Colored icon commands using FontAwesome (SVG-like, can be colored, centered with text)
+\newcommand{\githubmark}{\raisebox{0.05em}{\textcolor{resumeblue}{\faGithub}}}
+\newcommand{\email}{\raisebox{0.05em}{\textcolor{resumeblue}{\faEnvelope}}}
+\newcommand{\linkedin}{\raisebox{0.05em}{\textcolor{resumeblue}{\faLinkedin}}}
+\newcommand{\location}{\raisebox{0.05em}{\textcolor{resumeblue}{\faMapMarker}}}
+\newcommand{\phonemark}{\raisebox{0.05em}{\textcolor{resumeblue}{\faPhone}}}
 
 \newcommand{\buildno}{
     % Command implementation is taken from `mVersion` package documentation.

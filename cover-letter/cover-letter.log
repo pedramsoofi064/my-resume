@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 NOV 2025 18:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  21 NOV 2025 18:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -74,8 +74,16 @@ Type <return> to continue.
                                                   
 l.24 ...critical:nn { emoji } { require-luatex } }
                                                   
-? 
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+? ^^[^^[^^[
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? q
+OK, entering \batchmode...
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count273
 \float@exts=\toks19
@@ -212,7 +220,8 @@ x
 )
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box100
-) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
@@ -222,6 +231,7 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks22
 \pgfkeys@temptoks=\toks23
@@ -276,6 +286,7 @@ File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
@@ -307,7 +318,8 @@ erarithmetics.code.tex)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count292
-)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -429,7 +441,8 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
 (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
@@ -548,7 +561,8 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count309
@@ -641,17 +655,45 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
 \Hy@SectionHShift=\skip53
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/tex-gyre/tgpagella.sty
-Package: tgpagella 2009/09/27 v1.2 TeX Gyre Pagella as default roman family
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+qpl on input line 11
-6.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/tex-gyre/t1qpl.fd
-File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
-))
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2025/02/11 v3.2a Micro-typographical refinements (RS)
 \MT@toks=\toks36
@@ -733,12 +775,17 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \newparindent=\skip58
 \doubleparindent=\skip59
 )
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 4
+.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count329
 \l__pdf_internal_box=\box121
-)
-(./cover-letter.aux)
+) (./cover-letter.aux)
 \openout1 = `cover-letter.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -759,7 +806,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -794,6 +840,7 @@ LaTeX Font Info:    ... okay on input line 4.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count330
@@ -807,7 +854,8 @@ LaTeX Font Info:    ... okay on input line 4.
 \MPnumerator=\count334
 \makeMPintoPDFobject=\count335
 \everyMPtoPDFconversion=\toks43
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -817,8 +865,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring OFF on input line 4.
-
-(./cover-letter.out) (./cover-letter.out)
+ (./cover-letter.out) (./cover-letter.out)
 \@outlinefile=\write4
 \openout4 = `cover-letter.out'.
 
@@ -839,27 +886,39 @@ LaTeX Info: Redefining \showhyphens on input line 4.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-ppl.cfg
-File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
-)
-(./title.tex
-
-! LaTeX Error: Unicode character 📍 (U+1F4CD)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6         \textit{📍 Oulu, Finland}
-                                        \\
-? 
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: T1).
+(microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-\versionfile=\read4
+ (./title.tex
+! Undefined control sequence.
+<recently read> \EXTRALARGE 
+                            
+l.4         \textbf{\EXTRALARGE Pedram Soofi}
+                                              \\ % Bold large title
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+1.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 Package epstopdf Info: Source file: <img/github-mark.eps>
 (epstopdf)                    date: 2025-07-08 23:01:08
 (epstopdf)                    size: 3518 bytes
@@ -868,57 +927,93 @@ Package epstopdf Info: Source file: <img/github-mark.eps>
 (epstopdf)                    size: 3152 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/github-mark-eps-conver
 ted-to.pdf img/github-mark.eps>
-(epstopdf)             \includegraphics on input line 15.
+(epstopdf)             \includegraphics on input line 12.
 Package epstopdf Info: Output file is already uptodate.
 <img/github-mark-eps-converted-to.pdf, id=8, 33.12375pt x 32.12pt>
 File: img/github-mark-eps-converted-to.pdf Graphic file (type pdf)
 <use img/github-mark-eps-converted-to.pdf>
 Package pdftex.def Info: img/github-mark-eps-converted-to.pdf  used on input li
-ne 15.
-(pdftex.def)             Requested size: 8.25008pt x 8.0pt.
+ne 12.
+(pdftex.def)             Requested size: 8.76561pt x 8.5pt.
 <img/LI-In-Bug.png, id=10, 543.02875pt x 542.025pt>
 File: img/LI-In-Bug.png Graphic file (type png)
 <use img/LI-In-Bug.png>
-Package pdftex.def Info: img/LI-In-Bug.png  used on input line 16.
-(pdftex.def)             Requested size: 8.0125pt x 8.0pt.
+Package pdftex.def Info: img/LI-In-Bug.png  used on input line 13.
+(pdftex.def)             Requested size: 8.50966pt x 8.5pt.
 ! Undefined control sequence.
 <argument> ...t {pedramsoofi064@gmail.com}~\emoji 
                                                   {email}
-l.19 ...t{pedramsoofi064@gmail.com}~\emoji{email}}
+l.16 ...t{pedramsoofi064@gmail.com}~\emoji{email}}
                                                   
-? 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+9.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 22.
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 22.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+9.
 
-Overfull \hbox (3.00601pt too wide) in paragraph at lines 1--24
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+19.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+19.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 19.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 19.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 19.
+
+Overfull \hbox (4.11108pt too wide) in paragraph at lines 1--21
  [] $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--24
+Underfull \hbox (badness 10000) in paragraph at lines 1--21
 
  []
 
 )
-LaTeX Font Info:    Trying to load font information for TS1+qpl on input line 1
-4.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/tex-gyre/ts1qpl.fd
-File: ts1qpl.fd 2009/09/25 v1.2 font definition file for TS1/qpl
-)
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
+14.
 
-[1
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmss.fd
+File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+
+ [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2025/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/local/texliv
-e/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/
-2025/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc} <./img/github-mark-eps-conv
-erted-to.pdf> <./img/LI-In-Bug.png>] (./cover-letter.aux)
+al/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/202
+5/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc} <./img/github-mark-eps-converted-to
+.pdf> <./img/LI-In-Bug.png>] (./cover-letter.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -927,21 +1022,22 @@ Package rerunfilecheck Info: File `cover-letter.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24705 strings out of 473190
- 477187 string characters out of 5715801
- 884534 words of memory out of 5000000
- 47514 multiletter control sequences out of 15000+600000
- 588019 words of font info for 77 fonts, out of 8000000 for 9000
+ 24774 strings out of 473190
+ 478949 string characters out of 5715801
+ 882238 words of memory out of 5000000
+ 47563 multiletter control sequences out of 15000+600000
+ 590620 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,7n,106p,1009b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb></us
-r/local/texlive/2025/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/loca
-l/texlive/2025/texmf-dist/fonts/type1/public/tex-gyre/qplri.pfb></usr/local/tex
-live/2025/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on cover-letter.pdf (1 page, 198446 bytes).
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/loc
+al/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/local/texlive/
+2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2025/tex
+mf-dist/fonts/type1/public/lm/lmsso9.pfb></usr/local/texlive/2025/texmf-dist/fo
+nts/type1/public/lm/lmtt8.pfb>
+Output written on cover-letter.pdf (1 page, 116555 bytes).
 PDF statistics:
- 52 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
  21015 words of extra memory for PDF output out of 24883 (max. 10000000)
 
