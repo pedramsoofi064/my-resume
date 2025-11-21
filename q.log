@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  21 NOV 2025 20:50
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  21 NOV 2025 21:26
  restricted system commands enabled.
 **resume.tex
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/q.tex
@@ -49,7 +49,7 @@ Inserting `tracingstacklevels' in `input_level_string'. File ignored
 
 
 Here is how much of LuaTeX's memory you used:
- 25 strings out of 475506
+ 18 strings out of 475506
  100000,552014 words of node,token memory allocated 301 words of node memory still in use:
    1 hlist, 1 dir, 3 kern, 1 glyph, 1 attribute, 39 glue_spec, 1 attribute_list 
 nodes
