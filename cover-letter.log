@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  16 JUL 2025 09:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 NOV 2025 18:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -738,7 +738,7 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count329
 \l__pdf_internal_box=\box121
 )
-No file cover-letter.aux.
+(./cover-letter.aux)
 \openout1 = `cover-letter.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -759,6 +759,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -816,6 +817,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package hyperref Info: Link coloring OFF on input line 4.
+
+(./cover-letter.out) (./cover-letter.out)
 \@outlinefile=\write4
 \openout4 = `cover-letter.out'.
 
@@ -849,8 +852,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6         \textit{📍 Finland }
-                                   \\
+l.6         \textit{📍 Oulu, Finland}
+                                        \\
 ? 
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: T1).
@@ -858,10 +861,10 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 \versionfile=\read4
 Package epstopdf Info: Source file: <img/github-mark.eps>
-(epstopdf)                    date: 2025-07-08 23:31:08
+(epstopdf)                    date: 2025-07-08 23:01:08
 (epstopdf)                    size: 3518 bytes
 (epstopdf)             Output file: <img/github-mark-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-07-08 23:31:08
+(epstopdf)                    date: 2025-07-08 23:01:08
 (epstopdf)                    size: 3152 bytes
 (epstopdf)             Command: <repstopdf --outfile=img/github-mark-eps-conver
 ted-to.pdf img/github-mark.eps>
@@ -903,43 +906,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--24
  []
 
 )
+LaTeX Font Info:    Trying to load font information for TS1+qpl on input line 1
+4.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tex-gyre/ts1qpl.fd
+File: ts1qpl.fd 2009/09/25 v1.2 font definition file for TS1/qpl
+)
 
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/local/texliv
-e/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./img/github-mark-
-eps-converted-to.pdf> <./img/LI-In-Bug.png>] (./cover-letter.aux)
+e/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/
+2025/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc} <./img/github-mark-eps-conv
+erted-to.pdf> <./img/LI-In-Bug.png>] (./cover-letter.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-Package rerunfilecheck Warning: File `cover-letter.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cover-letter.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `cover-letter.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24667 strings out of 473190
- 476510 string characters out of 5715801
- 883477 words of memory out of 5000000
- 47489 multiletter control sequences out of 15000+600000
- 587614 words of font info for 75 fonts, out of 8000000 for 9000
+ 24705 strings out of 473190
+ 477187 string characters out of 5715801
+ 884534 words of memory out of 5000000
+ 47514 multiletter control sequences out of 15000+600000
+ 588019 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,7n,106p,1009b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb></us
 r/local/texlive/2025/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/loca
 l/texlive/2025/texmf-dist/fonts/type1/public/tex-gyre/qplri.pfb></usr/local/tex
 live/2025/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on cover-letter.pdf (1 page, 190197 bytes).
+Output written on cover-letter.pdf (1 page, 198446 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
- 18967 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 21015 words of extra memory for PDF output out of 24883 (max. 10000000)
 

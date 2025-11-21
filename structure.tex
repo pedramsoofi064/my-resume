@@ -56,7 +56,7 @@
 
 \newenvironment{customitemize}
 {
-    \begin{itemize}{}{
+    \begin{itemize}
             \setlength{\labelwidth}{3em}
             \setlength{\labelsep}{0em}
             \setlength{\parsep}{0.1em}
@@ -65,7 +65,7 @@
             \setlength{\rightmargin}{2cm}
             \setlength{\itemindent}{0em}
             \let\makelabel=\makeboxlabel
-        }}
+        }
         {\end{itemize}}
 
 \newcommand{\breakvspace}[1]{\pagebreak[2]\vspace{#1}\pagebreak[2]} % A custom vspace command with custom before and after spacing lengths
