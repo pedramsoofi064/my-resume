@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  24 NOV 2025 15:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  24 NOV 2025 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1137,7 +1137,7 @@ Package microtype Info: Character `029' is missing
 <argument> \makelabel 
                       {\@itemlabel }
 l.5         \item \jobtitle
-                           {Technical Team Lead}{\timeinterval{Jun 2023}{Sep...
+                           {Technical Team Lead | Front-End Architecture}{\t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1653,11 +1653,11 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 ### semi simple group (level 1) entered at line 2 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 28376 strings out of 473190
- 557750 string characters out of 5715801
+ 28380 strings out of 473190
+ 557800 string characters out of 5715801
  954229 words of memory out of 5000000
  51051 multiletter control sequences out of 15000+600000
- 613720 words of font info for 117 fonts, out of 8000000 for 9000
+ 613930 words of font info for 119 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,5n,106p,1003b,787s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawes
@@ -1668,7 +1668,7 @@ nts/type1/public/lm/lmss9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/p
 ublic/lm/lmssbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm
 /lmsso8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso9.pf
 b>
-Output written on resume.pdf (2 pages, 172918 bytes).
+Output written on resume.pdf (2 pages, 173663 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
