@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  27 NOV 2025 17:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  27 NOV 2025 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -904,9 +904,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  (../components/title.tex
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 6.
-
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
 
  []
@@ -1085,8 +1082,8 @@ Underfull \hbox (badness 10000) detected at line 14
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
-l.20     \item E
-                ngineered a high-performance authentication platform (``Fara...
+l.20    \item E
+               ngineered a high-performance authentication platform \href{ht...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1102,7 +1099,7 @@ Underfull \hbox (badness 10000) detected at line 20
 <argument> \makelabel 
                       {\@itemlabel }
 l.21     \item D
-                eveloped a scalable, multi-tenant authentication widget (``E...
+                eveloped a scalable, multi-tenant authentication widget \hre...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1117,8 +1114,8 @@ Underfull \hbox (badness 10000) detected at line 21
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
-l.22     \item D
-                elivered \textbf{20+ diverse web applications}, including th...
+l.22     \item B
+                uilt \href{https://ivira.ai/}{Ivira} a comprehensive AI mark...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1133,8 +1130,8 @@ Underfull \hbox (badness 10000) detected at line 22
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
-l.23     \item E
-                nforced high engineering standards across all projects by im...
+l.23     \item D
+                elivered \textbf{20+ diverse web applications}, including a ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1149,8 +1146,8 @@ Underfull \hbox (badness 10000) detected at line 23
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
-l.24     \item D
-                esigned and led a structured \textbf{Internship Program} for...
+l.24     \item E
+                nforced high engineering standards across all projects by im...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1165,8 +1162,24 @@ Underfull \hbox (badness 10000) detected at line 24
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
-l.31         \item A
-                    cted as a \textbf{System Analyst and Engineer} to archit...
+l.25     \item D
+                esigned and led a structured \textbf{Internship Program} for...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) detected at line 25
+[]\TS1/lmss/m/n/9 ˆ[]
+ []
+
+! Undefined control sequence.
+<argument> \makelabel 
+                      {\@itemlabel }
+l.31     \item A
+                cted as a \textbf{System Analyst and Engineer} to architect ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1182,7 +1195,7 @@ Underfull \hbox (badness 10000) detected at line 31
 <argument> \makelabel 
                       {\@itemlabel }
 l.32     \item I
-                mplemented a modular **TypeScript architecture** featuring a...
+                mplemented a modular typescript architecture featuring a rob...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1210,18 +1223,7 @@ Underfull \hbox (badness 10000) detected at line 33
 []\TS1/lmss/m/n/9 ˆ[]
  []
 
-) (../components/skills.tex
-! Misplaced alignment tab character &.
-l.4 ...ion, Stakeholder Communication, Ownership &
-                                                   Accountability, Performan...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-) (../components/education.tex)
+) (../components/skills.tex) (../components/education.tex)
 
 [1
 
@@ -1239,24 +1241,24 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27966 strings out of 473190
- 550449 string characters out of 5715801
- 944406 words of memory out of 5000000
- 50676 multiletter control sequences out of 15000+600000
- 601466 words of font info for 102 fonts, out of 8000000 for 9000
+ 27975 strings out of 473190
+ 550573 string characters out of 5715801
+ 945406 words of memory out of 5000000
+ 50675 multiletter control sequences out of 15000+600000
+ 601854 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,5n,106p,1003b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
 me5Brands-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/fo
 ntawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2025/texmf-dist/fonts
-/type1/public/lm/lmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ
-ic/lm/lmss9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssb
-x10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></
-usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso9.pfb>
-Output written on resume.pdf (1 page, 172077 bytes).
+/type1/public/lm/lmss10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/pub
+lic/lm/lmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss
+9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></
+usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso8.pfb>
+Output written on resume.pdf (1 page, 168995 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  26637 words of extra memory for PDF output out of 29859 (max. 10000000)
 
