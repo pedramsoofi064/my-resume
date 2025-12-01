@@ -29,7 +29,6 @@ jobs:
           tag_name: ${{ env.VERSION }}
           name: "Resume ${{ env.VERSION }}"
           files: |
-            resume.pdf
             resume/resume.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
