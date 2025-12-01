@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  25 NOV 2025 12:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  29 NOV 2025 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -762,15 +762,6 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 Package: xhfill 2011/05/14\ v 1.01\ modify width and color of hrulefill
 )
-(/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2025/02/06 v3.11 Customized lists
-\labelindent=\skip58
-\enit@outerparindent=\dimen276
-\enit@toks=\toks38
-\enit@inbox=\box122
-\enit@count@id=\count328
-\enitdp@description=\count329
-)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/xargs/xargs.sty
 Package: xargs 2008/03/22 v1.1  extended macro definitions  (mpg)
 
@@ -779,25 +770,36 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
 (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks39
-\XKV@tempa@toks=\toks40
+\XKV@toks=\toks38
+\XKV@tempa@toks=\toks39
 )
-\XKV@depth=\count330
+\XKV@depth=\count328
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\xargs@max=\count331
-\xargs@toksa=\toks41
-\xargs@toksb=\toks42
+\xargs@max=\count329
+\xargs@toksa=\toks40
+\xargs@toksb=\toks41
 )
-\newparindent=\skip59
-\doubleparindent=\skip60
+! Undefined control sequence.
+<argument> \undefinedpagestyle 
+                               
+l.58 \pagestyle{}
+                  % Stop page numbering
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newparindent=\skip58
+\doubleparindent=\skip59
 )
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 4
 .
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmss.fd
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./cover-letter.aux)
+)
+(./cover-letter.aux)
 \openout1 = `cover-letter.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -827,15 +829,15 @@ LaTeX Font Info:    ... okay on input line 4.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(54.2025pt, 489.10287pt, 54.2025pt)
-* v-part:(T,H,B)=(54.2025pt, 736.64185pt, 54.2025pt)
+* h-part:(L,W,R)=(36.135pt, 525.23788pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 772.77686pt, 36.135pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=489.10287pt
-* \textheight=736.64185pt
-* \oddsidemargin=-18.06749pt
-* \evensidemargin=-18.06749pt
-* \topmargin=-55.06749pt
+* \textwidth=525.23788pt
+* \textheight=772.77686pt
+* \oddsidemargin=-36.135pt
+* \evensidemargin=-36.135pt
+* \topmargin=-73.135pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=9.0pt
@@ -855,17 +857,17 @@ LaTeX Font Info:    ... okay on input line 4.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count332
-\scratchdimen=\dimen277
-\scratchbox=\box123
-\nofMPsegments=\count333
-\nofMParguments=\count334
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count335
-\MPscratchDim=\dimen278
-\MPnumerator=\count336
-\makeMPintoPDFobject=\count337
-\everyMPtoPDFconversion=\toks44
+\scratchcounter=\count330
+\scratchdimen=\dimen276
+\scratchbox=\box122
+\nofMPsegments=\count331
+\nofMParguments=\count332
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count333
+\MPscratchDim=\dimen277
+\MPnumerator=\count334
+\makeMPintoPDFobject=\count335
+\everyMPtoPDFconversion=\toks43
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -903,34 +905,31 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  (../components/title.tex
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 6.
-
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
 
  []
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 14.
+nput line 13.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 22.
+nput line 21.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 24.
+ input line 23.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.
 fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 24.
+n input line 23.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-8.
+7.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -939,60 +938,52 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-8.
+7.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-28.
+27.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-28.
+27.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 28.
+(Font)              <9> on input line 27.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 28.
+(Font)              <6> on input line 27.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 28.
-)
-Overfull \hbox (4.11108pt too wide) in paragraph at lines 1--7
+(Font)              <5> on input line 27.
+
+Overfull \hbox (4.11108pt too wide) in paragraph at lines 1--29
  [] $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--7
+Underfull \hbox (badness 10000) in paragraph at lines 1--29
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-14.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmss.fd
-File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmss' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 
-! Misplaced alignment tab character &.
-<argument> Strong Product &
-                            Collaboration Mindset:
-l.16 ...f{Strong Product & Collaboration Mindset:}
-                                                   Worked closely with produ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \begin{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
 
@@ -1002,33 +993,37 @@ might try typing `S' now just to see what is salvageable.
 al/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/202
 5/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2025
 /texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2025/
-texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2025
-/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] (./cover-letter.aux)
+texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}] (./cover-letter.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `cover-letter.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 8 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 28249 strings out of 473190
- 555270 string characters out of 5715801
- 938265 words of memory out of 5000000
- 50987 multiletter control sequences out of 15000+600000
- 597753 words of font info for 91 fonts, out of 8000000 for 9000
+ 27856 strings out of 473190
+ 548422 string characters out of 5715801
+ 928442 words of memory out of 5000000
+ 50622 multiletter control sequences out of 15000+600000
+ 590635 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 105i,5n,106p,1009b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
-me5Brands-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/fo
-ntawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2025/texmf-dist/fonts
-/type1/public/lm/lmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ
-ic/lm/lmss9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssb
-x10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso9.pfb>
-Output written on cover-letter.pdf (1 page, 132017 bytes).
+ 105i,5n,106p,1009b,480s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawes
+ome5/FontAwesome5Brands-Regular.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
+ype1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2025/te
+xmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2025/texmf-dist/f
+onts/type1/public/lm/lmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/
+public/lm/lmss9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/l
+mssbx10.pfb>
+Output written on cover-letter.pdf (1 page, 123321 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
- 26637 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 56 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 500000)
+ 18445 words of extra memory for PDF output out of 20736 (max. 10000000)
 

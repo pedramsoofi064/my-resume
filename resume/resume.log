@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  27 NOV 2025 18:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  29 NOV 2025 13:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -977,8 +977,8 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
-l.9         \item A
-                   rchitected a scalable Micro-Frontend ecosystem (Vite) and...
+l.9         \item B
+                   uild a scalable Micro-Frontend ecosystem (Vite) and custo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1019,7 +1019,7 @@ Underfull \hbox (badness 10000) detected at line 10
 <argument> \makelabel 
                       {\@itemlabel }
 l.11         \item E
-                    ngineered a secure, \textbf{framework-agnostic State Mac...
+                    ngineered a secure, framework-agnostic State Machine to ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1034,24 +1034,8 @@ Underfull \hbox (badness 10000) detected at line 11
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
-l.12         \item C
+l.13         \item C
                     o-founded the Frontend Infrastructure Chapter to spearhe...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Underfull \hbox (badness 10000) detected at line 12
-[]\TS1/lmss/m/n/9 ˆ[]
- []
-
-! Undefined control sequence.
-<argument> \makelabel 
-                      {\@itemlabel }
-l.13         \item M
-                    entored +6 developers to elevate technical proficiency, ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1066,8 +1050,8 @@ Underfull \hbox (badness 10000) detected at line 13
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
-l.14         \item C
-                    onducted advanced technical interviews to identify high-...
+l.14         \item M
+                    entored +6 developers to elevate technical proficiency, ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1082,8 +1066,8 @@ Underfull \hbox (badness 10000) detected at line 14
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
-l.20    \item E
-               ngineered a high-performance authentication platform \href{ht...
+l.15         \item C
+                    onducted advanced technical interviews to identify high-...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1091,15 +1075,15 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) detected at line 20
+Underfull \hbox (badness 10000) detected at line 15
 []\TS1/lmss/m/n/9 ˆ[]
  []
 
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
-l.21     \item D
-                eveloped a scalable, multi-tenant authentication widget \hre...
+l.21    \item E
+               ngineered a high-performance authentication platform \href{ht...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1114,8 +1098,8 @@ Underfull \hbox (badness 10000) detected at line 21
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
-l.22     \item B
-                uilt \href{https://ivira.ai/}{Ivira} a comprehensive AI mark...
+l.22     \item D
+                eveloped a scalable, multi-tenant authentication widget \hre...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1130,8 +1114,8 @@ Underfull \hbox (badness 10000) detected at line 22
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
-l.23     \item D
-                elivered \textbf{20+ diverse web applications}, including a ...
+l.23     \item B
+                uilt \href{https://ivira.ai/}{Ivira} a comprehensive AI mark...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1146,8 +1130,8 @@ Underfull \hbox (badness 10000) detected at line 23
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
-l.24     \item E
-                nforced high engineering standards across all projects by im...
+l.24     \item D
+                elivered \textbf{20+ diverse web applications}, including a ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1162,8 +1146,8 @@ Underfull \hbox (badness 10000) detected at line 24
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
-l.25     \item D
-                esigned and led a structured \textbf{Internship Program} for...
+l.25     \item E
+                nforced high engineering standards across all projects by im...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1178,8 +1162,8 @@ Underfull \hbox (badness 10000) detected at line 25
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
-l.31     \item A
-                cted as a \textbf{System Analyst and Engineer} to architect ...
+l.26     \item D
+                esigned and led a structured \textbf{Internship Program} for...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1187,15 +1171,15 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) detected at line 31
+Underfull \hbox (badness 10000) detected at line 26
 []\TS1/lmss/m/n/9 ˆ[]
  []
 
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
-l.32     \item I
-                mplemented a modular typescript architecture featuring a rob...
+l.32     \item A
+                cted as a \textbf{System Analyst and Engineer} to architect ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1210,8 +1194,8 @@ Underfull \hbox (badness 10000) detected at line 32
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
-l.33     \item A
-                dopted \textbf{Test-Driven Development (TDD)} and Agile/Scru...
+l.33     \item I
+                mplemented a modular typescript architecture featuring a rob...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1220,6 +1204,22 @@ and I'll forget about whatever was undefined.
 
 
 Underfull \hbox (badness 10000) detected at line 33
+[]\TS1/lmss/m/n/9 ˆ[]
+ []
+
+! Undefined control sequence.
+<argument> \makelabel 
+                      {\@itemlabel }
+l.34     \item A
+                dopted \textbf{Test-Driven Development (TDD)} and Agile/Scru...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) detected at line 34
 []\TS1/lmss/m/n/9 ˆ[]
  []
 
@@ -1241,11 +1241,11 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27975 strings out of 473190
- 550573 string characters out of 5715801
+ 27963 strings out of 473190
+ 550437 string characters out of 5715801
  945406 words of memory out of 5000000
  50675 multiletter control sequences out of 15000+600000
- 601854 words of font info for 107 fonts, out of 8000000 for 9000
+ 601216 words of font info for 101 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,5n,106p,1003b,444s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
@@ -1255,7 +1255,7 @@ ntawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2025/texmf-dist/fonts
 lic/lm/lmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmss
 9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></
 usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso8.pfb>
-Output written on resume.pdf (1 page, 168995 bytes).
+Output written on resume.pdf (1 page, 168987 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream
