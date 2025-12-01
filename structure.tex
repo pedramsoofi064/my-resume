@@ -72,6 +72,17 @@
         }
         {\end{itemize}}
 
+% Tight itemize: use like itemize but without top margin and with compact spacing
+\newenvironment{tightitemize}
+{
+    \begin{itemize}
+        \setlength{\topsep}{0pt}
+        \setlength{\partopsep}{0pt}
+        \setlength{\itemsep}{0.1em}
+        \setlength{\parsep}{0pt}
+    }
+    {\end{itemize}}
+
 \newcommand{\breakvspace}[1]{\pagebreak[2]\vspace{#1}\pagebreak[2]} % A custom vspace command with custom before and after spacing lengths
 \newcommand{\nobreakvspace}[1]{\nopagebreak[4]\vspace{#1}\nopagebreak[4]} % A custom vspace command with custom before and after spacing lengths that do not break the page
 \newcommand{\spacedhrule}[2]{\breakvspace{#1}\hrule\nobreakvspace{#2}} % Defines a horizontal line with some vertical space before and after it
@@ -101,7 +112,7 @@
 \newcommand{\companytitle}[2]{\textscale{1.1}{\textbf{#1}}\hfill{#2}}
 \newcommand{\jobtitle}[2]{\textbf{#1}\hfill\emph{#2}}
 \newcommand{\stackoftech}[1]{\emph{#1}}
-\newcommand{\timeinterval}[2]{\textit({#1} -- \textit{#2})}
+\newcommand{\timeinterval}[2]{(\textit{#1} -- \textit{#2})}
 
 % Combined job title with time interval and company name
 % Usage: \jobtitlewithcompany{Job Title}{Start Date}{End Date}{Company Name}
