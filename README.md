@@ -3,11 +3,11 @@
 
 Welcome!
 This repository contains the source code for my résumé, written in LaTeX.
-Also you can use it for cover letter too.
+Also, you can use it for a cover letter, too.
 
 You can download the latest compiled PDF from the Releases section:
 
-👉 Download Latest Resume￼ [releases] [releases]
+👉 Download Latest Resume￼ [releases]
 
 [releases]: https://github.com/pedramsoofi064/my-resume/releases
 
@@ -59,7 +59,7 @@ The final resume.pdf will appear inside:
 
 /resume/resume.pdf
 
-Also you can easily go to the resume or cover-letter directory and runs "pdflatex resume.tex(or cover-letter.tex)".
+Also, you can easily go to the resume or cover-letter directory and run "pdflatex resume.tex(or cover-letter.tex)".
 
 ⸻
 
