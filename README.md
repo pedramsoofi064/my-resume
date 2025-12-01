@@ -7,9 +7,9 @@ Also you can use it for cover letter too.
 
 You can download the latest compiled PDF from the Releases section:
 
-👉 Download Latest Resume￼[releases][releases]
+👉 Download Latest Resume￼ [releases] [releases]
 
-[releases]: https://github.com/babakks/my-resume/releases
+[releases]: https://github.com/pedramsoofi064/my-resume/releases
 
 ⸻
 
