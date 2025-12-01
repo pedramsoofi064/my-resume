@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  1 DEC 2025 20:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  1 DEC 2025 20:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -906,70 +906,76 @@ Package microtype Info: Loading generic protrusion settings for font family
  (../components/title.tex
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 6.
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--7
-
- []
-
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 14.
+nput line 15.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 22.
+nput line 23.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 24.
+ input line 25.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.
 fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 24.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+n input line 25.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
 8.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+\versionfile=\read4
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
+0.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-8.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
+0.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-28.
+30.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-28.
+30.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 28.
+(Font)              <9> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 28.
+(Font)              <6> on input line 30.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 28.
+(Font)              <5> on input line 30.
 
-Overfull \hbox (4.11108pt too wide) in paragraph at lines 1--30
+Overfull \hbox (4.11108pt too wide) in paragraph at lines 1--32
  [] $[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--30
+Underfull \hbox (badness 10000) in paragraph at lines 1--32
 
  []
 
@@ -1306,16 +1312,6 @@ Underfull \hbox (badness 10000) detected at line 43
 []\TS1/lmss/m/n/9 ˆ[]
  []
 
-
-
-[1
-
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/202
-5/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2025
-/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2025/
-texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2025
-/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
@@ -1332,6 +1328,16 @@ Underfull \hbox (badness 10000) detected at line 44
 []\TS1/lmss/m/n/9 ˆ[]
  []
 
+
+
+[1
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/202
+5/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2025
+/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2025/
+texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2025
+/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
@@ -1476,11 +1482,11 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27999 strings out of 473190
- 551245 string characters out of 5715801
- 945474 words of memory out of 5000000
- 50689 multiletter control sequences out of 15000+600000
- 601979 words of font info for 107 fonts, out of 8000000 for 9000
+ 28057 strings out of 473190
+ 552174 string characters out of 5715801
+ 946501 words of memory out of 5000000
+ 50738 multiletter control sequences out of 15000+600000
+ 605275 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  105i,5n,106p,1003b,526s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/fontawesome5/FontAweso
@@ -1489,11 +1495,12 @@ ntawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2025/texmf-dist/fonts
 /type1/public/lm/lmss8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/publ
 ic/lm/lmss9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssb
 x10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></
-usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso9.pfb>
-Output written on resume.pdf (2 pages, 184791 bytes).
+usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso9.pfb></usr/local/
+texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
+Output written on resume.pdf (2 pages, 205806 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
- 26637 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 29197 words of extra memory for PDF output out of 29859 (max. 10000000)
 
