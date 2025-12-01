@@ -3,6 +3,7 @@ name: Build (master)
 on:
   push:
     branches: [master]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -12,16 +13,23 @@ jobs:
       image: texlive/texlive@sha256:4e514fb5596a8db3defd38f40fc0f7b119eb3fcc88a4bfe291cd36eb00551ddb
 
     steps:
-      - name: Check out
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build resume (PDF)
+      - name: Build resume
         run: make build-resume
 
-      - name: Upload resume PDF
-        uses: actions/upload-artifact@v4
+      - name: Determine version tag
+        run: |
+          echo "VERSION=v$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
+
+      - name: Create GitHub Release and upload PDF
+        uses: softprops/action-gh-release@v1
         with:
-          name: resume-${{ github.ref_name }}-${{ github.sha }}
-          path: |
+          tag_name: ${{ env.VERSION }}
+          name: "Resume ${{ env.VERSION }}"
+          files: |
             resume.pdf
             resume/resume.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
