@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  1 DEC 2025 20:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  1 DEC 2025 20:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -935,9 +935,22 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 \versionfile=\read4
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ...{resumeblue}\texttt{Build\buildno}}} \\ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
 0.
-
 (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1312,6 +1325,16 @@ Underfull \hbox (badness 10000) detected at line 43
 []\TS1/lmss/m/n/9 ˆ[]
  []
 
+
+
+[1
+
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/202
+5/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2025
+/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2025/
+texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2025
+/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
@@ -1328,16 +1351,6 @@ Underfull \hbox (badness 10000) detected at line 44
 []\TS1/lmss/m/n/9 ˆ[]
  []
 
-
-
-[1
-
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
-al/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/202
-5/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/local/texlive/2025
-/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/local/texlive/2025/
-texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/local/texlive/2025
-/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 ! Undefined control sequence.
 <argument> \makelabel 
                       {\@itemlabel }
@@ -1484,7 +1497,7 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 Here is how much of TeX's memory you used:
  28057 strings out of 473190
  552174 string characters out of 5715801
- 946501 words of memory out of 5000000
+ 945501 words of memory out of 5000000
  50738 multiletter control sequences out of 15000+600000
  605275 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1497,7 +1510,7 @@ ic/lm/lmss9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmssb
 x10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></
 usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsso9.pfb></usr/local/
 texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt8.pfb>
-Output written on resume.pdf (2 pages, 205806 bytes).
+Output written on resume.pdf (2 pages, 205844 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream

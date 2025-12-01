@@ -1,0 +1,27 @@
+name: Build (master)
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    container:
+      image: texlive/texlive@sha256:4e514fb5596a8db3defd38f40fc0f7b119eb3fcc88a4bfe291cd36eb00551ddb
+
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Build resume (PDF)
+        run: make build-resume
+
+      - name: Upload resume PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-${{ github.ref_name }}-${{ github.sha }}
+          path: |
+            resume.pdf
+            resume/resume.pdf
